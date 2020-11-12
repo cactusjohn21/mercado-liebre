@@ -1,0 +1,97 @@
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner-principal img {
+  width: 100%;
+}
+.main-home {
+  background-color: var(--fondos-bordes-bg);
+  width: 85%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.visitados,
+.en-ofertas {
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section article {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: white;
+}
+section article img {
+  width: 100%;
+  text-align: center;
+}
+.articulo {
+  text-align: start;
+  height: 30%;
+  border-top: 1px solid #ebebeb;
+  margin: 5px 5px 5px 5px;
+}
+.precios {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.fa-truck {
+  color: var(--iconos-truck-desc);
+  border-radius: 50%;
+  border: 1px solid var(--iconos-truck-desc);
+  padding: 6px;
+  background-color: white;
+  margin-right: 15px;
+}
+.justify-end {
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  bottom: 18px;
+}
+.descuentos {
+  font-size: 16px;
+}
+.nombre-producto {
+  word-wrap: break-word;
+  height: auto;
+}
+
+.nombre-producto:hover {
+  text-decoration: underline black;
+  color: var(--bg-azul);
+}
+
+.descrip {
+  padding: 20px;
+  font-size: 16px;
+  color: #666;
+  word-wrap: break-word;
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+  align-items: flex-end;
+}
+.descuentos {
+  color: var(--iconos-truck-desc);
+}
+.titulos-visitas,
+.titulos-ofer {
+  margin: 20px 0px;
+  width: 90%;
+  text-align: start;
+  font-size: 24px;
+}

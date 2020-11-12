@@ -1,0 +1,35 @@
+.login-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.send-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: #0044aa;
+}
+.send-btn:hover {
+  background-color: #0022aa;
+}
+.login {
+  padding: 5px;
+  border: 1px solid gainsboro;
+  border-radius: 13px;
+  height: 550px;
+  margin: 15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.email-in,
+.pass {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 0px;
+}

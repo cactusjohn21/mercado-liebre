@@ -1,0 +1,69 @@
+.register {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+}
+.register form {
+  border: 0.6px solid gainsboro;
+  padding: 10px;
+  border-radius: 13px;
+  box-sizing: border-box;
+}
+.register div input {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 7px;
+  border: 0px;
+}
+.date {
+  margin-top: 10px;
+  display: block;
+}
+.opciones {
+  display: block;
+}
+.titulo-perfil {
+  margin: 10px;
+  text-align: start;
+}
+.vendedor-comprador .comprar,
+.vendedor-comprador .vender {
+  width: 20%;
+}
+.preferencias {
+  text-align: start;
+  margin: 10px;
+}
+.titulo-interes {
+  margin: 15px;
+}
+.borrar {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: rgb(223, 0, 0);
+}
+
+.send {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: #0044aa;
+}
+
+.send:hover {
+  background-color: #0022aa;
+}
+
+.borrar:hover {
+  background-color: rgb(145, 0, 0);
+}

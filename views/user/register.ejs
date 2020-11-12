@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+      <%- include('../partial/head') %>
+      <body>
+      <%- include('../partial/header') %>
+      <Main>
+        <section class="register">
+            <form action="/">
+              <div>
+                    <label for="nombre"></label>
+                    <input type="text" placeholder="Nombre y apellido">
+              </div>
+
+              <div>
+                    <label for="nombre-usuario"></label>
+                    <input type="text" placeholder="Nombre de usuario">
+              </div>
+              <div>
+                    <label for="email"></label>
+                    <input type="email" placeholder="Email">
+              </div>
+              <div>
+                    <h3><label class="date" for="">Fecha de nacimiento</label></h3>
+                    <input type="date">
+              </div>
+              <div>
+                    <label for="domicilio"></label>
+                    <input type="text" placeholder="Domicilio">
+              </div>
+              <div class="vendedor-comprador">
+                    <h3>Perfil del usuario</h3>
+                    <label for="">Comprador</label>
+                    <input class="comprar" type="radio" name="v-c" value="com">
+                    <label for="">Vendedor</label>
+                    <input class="vender" type="radio" name="v-c" value="ven">
+              </div>
+              <div class="preferencias">
+                          <h3 class="titulo-interes">Intereses</h3>
+                          <label for="opciones">Electro</label><input type="checkbox" name="electro" value="electro">
+                          <label for="opciones">Moda</label><input type="checkbox" name="moda" value="moda">
+                          <label for="opciones">Hogar</label><input type="checkbox" name="hogar" value="hogar">
+                          <label for="opciones">Jugueteria</label><input type="checkbox" name="jugueteria" value="jugueteria"> 
+                          <label for="opciones">Vida sana</label><input type="checkbox" name="moda" value="vida"> 
+              </div>
+                    <div>
+                          <h3><label for="perfil">Elegi tu foto de usuario</label></h3>
+                    </div>
+                    <input type="file" name="usuario-img" value="usuario-img"> 
+              <div>
+                    <label for="contraseña"></label>
+                    <input type="password" placeholder="Contraseña">
+              </div>
+              <div>
+                    <label for="repetir-contraseña"></label>
+                    <input type="password" placeholder="Repetir contraseña">
+              </div>
+              <button class="send" type="submit" > Enviar</button>
+              <button class="borrar" type="reset">Borrar</button>
+             </form>
+        </section>    
+  </Main>
+      </body>
+<%- include("../partial/footer") %>
+</html>
